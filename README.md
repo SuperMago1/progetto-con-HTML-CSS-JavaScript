@@ -1,3 +1,3 @@
-# progetto-con-PHP
+# progettoSonic
 creazione sito web per la scuola usando il linguaggio HTML, CSS e Java Script
 
