@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head> <!-- contiene metadati e altre informazioni che non vengono visualizzate direttamente nel contenuto della pagina web -->
+    <meta charset="UTF-8"> <!-- viene usato dentro la sezione head per fornire info sui dati riguardo il documento HTML -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sito su Sonic</title>
+    <link rel="stylesheet" href="style.css"> <!-- viene usato per definire relazioni tra il documento corrente e risorse esterne -->
+</head>
+<body>
+    <header> <!-- viene usato per definire l'intestazione di una pagina o sezione del contenuto es -> contiene titolo pagina -->
+        <div class="container"> <!-- contenitore generico usato per raggruppare altri elementi e applicare stili o strutture al livello di layout. -->
+            <h1>Benvenuto nel mondo di Sonic</h1> <!-- ti scrive in grassetto quello dentro dove h1 è il più grande e h6 il più piccolo -->
+            <nav> <!-- definisce una sezione di navigazione dentro la pagina. Facilita struttura pagina e migliora accessibilità per gli utenti -->
+                <ul> <!-- ul = contenitore di una lista non ordinata -->
+                    <li><a href="#about">Chi è Sonic</a></li> <!-- li = ogni elemento della lisa è racchiuso in questo tag -->
+                    <li><a href="#characters">Personaggi</a></li>
+                    <li><a href="#games">Giochi</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" class="theme-toggle">Cambia Tema</button> <!-- bottone per cambiare il colore -->
+        </div>
+    </header>
+
+    <section id="about"> <!-- organizza contenuto di una pagina in sezioni distinte -->
+        <div class="container">
+            <h2>Chi è Sonic?</h2>
+            <p> <!-- testo classico -->
+                Sonic è un personaggio immaginario e il protagonista dell'omonima serie di videogiochi creata da SEGA. È un riccio blu superveloce ed è diventato uno dei più iconici e riconoscibili personaggi dei videogiochi a livello mondiale. Sonic è apparso per la prima volta nel 1991 nel gioco Sonic the Hedgehog, che è stato rilasciato per la console Sega Mega Drive/Genesis.
+
+				Il personaggio è famoso per la sua velocità straordinaria, la sua personalità spensierata e il suo coraggio. Sonic combatte contro il malvagio dottor Robotnik (conosciuto anche come Dr. Eggman), un genio del male che cerca di conquistare il mondo. Nel corso degli anni, Sonic ha guadagnato molti amici, tra cui Tails, un volpino a due code che lo aiuta nelle sue avventure, Knuckles, un echidna, e Amy Rose, una riccia rosa innamorata di lui.
+
+				Sonic è apparso in numerosi giochi, cartoni animati, fumetti e anche film, diventando un'icona della cultura popolare. Il suo slogan più famoso è "Gotta go fast!" ("Devo andare veloce!").
+            </p>
+        </div>
+    </section>
+
+    <section id="characters">
+        <div class="container">
+            <h2>Personaggi principali</h2>
+            <ul>
+                <li><strong>Sonic:</strong> Il protagonista, un riccio blu con incredibile velocità.</li> <!-- il testo dentro lo Strong è un testo a cui viene data enfasi e viene scritto in grassetto -->
+                <li><strong>Tails:</strong> Il fedele amico di Sonic, una volpe con due code che può volare.</li>
+                <li><strong>Knuckles:</strong> Un echidna forte e determinato, il guardiano delle Master Emerald.</li>
+                <li><strong>Dr. Eggman:</strong> Il malvagio scienziato che vuole conquistare il mondo.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="games">
+        <div class="container">
+            <h2>Giochi di Sonic</h2>
+            <p>
+                Sonic è protagonista di numerosi giochi di successo, tra cui:
+            </p>
+            <ol> <!-- serve per creare una lista ordinata -->
+                <li>Sonic the Hedgehog (1991)</li>
+                <li>Sonic Adventure (1998)</li>
+                <li>Sonic Generations (2011)</li>
+                <li>Sonic Frontiers (2022)</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="images">
+        <div class="container">
+            <h2>Immagini di Sonic</h2>
+            <div class="image-gallery">
+                <img src="sonic_image_1.jpg" alt="Immagine di Sonic" class="image">
+                <img src="sonic_image_2.jpg" alt="Sonic e Tails" class="image">
+            </div>
+        </div>
+    </section>
+
+    <footer> <!-- configura il piè di pagina di una sezione. Contiene info di chiusura o dettagli aggiuntivi es -> copyright, link a risorse correlate ecc. -->
+        <div class="container">
+            <p>Creato da Oberti Matteo e Fornoni Cristiano</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- collega uno script di javaScript esterno -->
+</body>
+</html>
