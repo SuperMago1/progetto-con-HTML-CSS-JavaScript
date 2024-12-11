@@ -1,0 +1,121 @@
+/* Impostazioni generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Tema scuro */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+header {
+    background-color: #0d47a1;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0d47a1;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Lista di personaggi e giochi */
+ul, ol {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
+/* Galleria di immagini */
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid #0d47a1;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+/* Footer */
+footer {
+    background-color: #0d47a1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Stile per il pulsante di cambio tema */
+.theme-toggle {
+    background-color: #ffeb3b;
+    border: none;
+    color: #0d47a1;
+    font-size: 1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto 0;
+}
+
+.theme-toggle:hover {
+    background-color: #fdd835;
+}
